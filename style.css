@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: rgb(205, 58, 50);
+  
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h1{
+    text-decoration:underline;
+    padding: 0px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #444;
+  }
+  
+  #recipe-list, #search-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .recipe-card {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
